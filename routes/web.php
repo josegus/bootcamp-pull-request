@@ -21,3 +21,7 @@ Route::get('/santillan', function () {
     echo 'Hola soy Santillan';
     return view('welcome');
 });
+
+Route::get('valentramos', function () {
+    return view('welcome');
+});
