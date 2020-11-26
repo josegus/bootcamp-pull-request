@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('fermelli', function () {
+    echo 'fermelli';
+});
+
 Route::get('/ebrjose', function () {
     return ['saludo' => 'Hola Mundo!!!'];
 });
