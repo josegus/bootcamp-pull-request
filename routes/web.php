@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/fermelli', function () {
+Route::get('fermelli', function () {
     echo 'fermelli';
 });
